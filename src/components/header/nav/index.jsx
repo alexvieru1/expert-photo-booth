@@ -11,17 +11,17 @@ const links = [
   {
     title: "Acasă",
     href: "/",
-    src: "acasa.jpg"
+    src: "test-5.png"
   },
   {
     title: "Servicii",
     href: "/servicii",
-    src: "servicii.jpg"
+    src: "test-2.jpg"
   },
   {
     title: "Despre Noi",
     href: "/dezvoltari-imobiliare",
-    src: "dezvoltari.jpg"
+    src: "test-3.jpg"
   },
   // {
   //   title: "Închirieri Utilaje ",
@@ -31,7 +31,7 @@ const links = [
   {
     title: "Contact",
     href: "/contact",
-    src: "constructori.jpg"
+    src: "test-4.png"
   }
 ]
 
