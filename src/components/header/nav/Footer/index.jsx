@@ -29,7 +29,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Telefon:</span> 0722334455
+                    <span>Telefon:</span> 0732406265
                 </motion.li>
             </ul>
             <ul>

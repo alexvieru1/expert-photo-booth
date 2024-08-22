@@ -20,14 +20,9 @@ const links = [
   },
   {
     title: "Despre Noi",
-    href: "/dezvoltari-imobiliare",
+    href: "/despre-noi",
     src: "test-3.jpg"
   },
-  // {
-  //   title: "Închirieri Utilaje ",
-  //   href: "/inchiriere-utilaje",
-  //   src: "utilaje.jpg"
-  // },
   {
     title: "Contact",
     href: "/contact",
