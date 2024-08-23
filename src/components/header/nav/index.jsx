@@ -11,27 +11,27 @@ const links = [
   {
     title: "Acasă",
     href: "/",
-    src: "test-5.png"
+    src: "home.jpg"
   },
   {
     title: "Despre Noi",
     href: "/despre-noi",
-    src: "test-3.jpg"
+    src: "despre-noi.jpg"
   },
   {
     title: "Evenimente",
     href: "/evenimente",
-    src: "test-2.jpg"
+    src: "evenimente.jpg"
   },
   {
     title: "Pachete",
     href: "/pachete",
-    src: "test-5.png"
+    src: "pachete.jpg"
   },
   {
     title: "Contact",
     href: "/contact",
-    src: "test-4.png"
+    src: "contact.jpg"
   }
 ]
 

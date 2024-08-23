@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { Button } from "@/components/ui/button"; // Ensure you have a Button component or replace with a standard button
 import AnimatedCounter from "../AnimatedCounter";
 
 const DespreNoi = () => {
@@ -62,13 +64,13 @@ const DespreNoi = () => {
           <h6 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
             Despre Noi
           </h6>
-          <h2 className="text-2xl lg:text-3xl mt-4">Compania Noastră</h2>
+          <h2 className="text-2xl lg:text-3xl mt-4">Creăm amintiri de neuitat</h2>
           <div className="gap-y-4 text-md text-gray-700 mt-6 leading-relaxed">
-            <p>
+            <p className="mb-4">
               ExpertPhotoBooth360 oferă o experiență de neuitat pentru invitații
               tăi, capturând momente speciale din evenimentele tale.
             </p>
-            <p>
+            <p className="mb-4">
               Serviciile noastre includ Cabină Foto, Oglinda Magică și 360
               Selfie Video Booth, asigurându-ne că evenimentul tău va fi cu
               adevărat special și memorabil.
@@ -121,6 +123,13 @@ const DespreNoi = () => {
                 alt="Additional Image"
               />
             </motion.div>
+          </div>
+          <div className="mt-8 flex justify-center items-center">
+            <Link href="/despre-noi">
+              <Button className="bg-[#bb835e] text-white py-2 px-6 rounded-md hover:bg-[#a6714d] transition duration-300">
+                Află mai mult
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
