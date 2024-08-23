@@ -3,13 +3,13 @@ import React from 'react'
 import Hero from './Hero'
 import { motion } from "framer-motion";
 import Link from "next/link";
-import SecondHero from './SecondHero';
+import DespreNoi from './DespreNoi';
 
 const HomePage = () => {
   return (
     <div className='flex-col w-full'>
         <Hero/>
-        <SecondHero/>
+        <DespreNoi/>
     </div>
   )
 }

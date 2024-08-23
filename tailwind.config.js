@@ -65,6 +65,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        amsterdam: ['"Amsterdam One"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

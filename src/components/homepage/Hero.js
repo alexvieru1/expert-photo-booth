@@ -5,9 +5,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 const images = [
-  "/images/test-1.jpg",
-  "/images/test-2.jpg",
-  "/images/test-3.jpg",
+  "/images/hero-11.jpg",
+  "/images/hero-2.jpg",
+  "/images/hero-3.jpg",
+  "/images/hero-4.jpg",
+  "/images/hero-5.jpg",
 ];
 
 const Hero = () => {
@@ -16,12 +18,22 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 2500); // Change image every 5 seconds
     return () => clearInterval(interval);
   }, []);
 
-  const scrollToCounters = () => {
-    document.getElementById("counters").scrollIntoView({ behavior: "smooth" });
+  const scrollDown = () => {
+    const element = document.getElementById("despre-noi");
+    const offset = -100; // Adjust this value to scroll higher or lower
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = element.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition + offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -56,14 +68,14 @@ const Hero = () => {
           }}
           viewport={{ once: true }}
         >
-          <h1 className="flex justify-center items-center 4xs:text-lg md:text-2xl font-semibold">
-            eXpert Photobooth
+          <h1 className="flex justify-center items-center mb-8 4xs:text-lg md:text-2xl font-amsterdam">
+            Expert Photobooth
           </h1>
           <p className="flex justify-center items-center place-self-center 4xs:text-xs md:text-md text-center md:mt-4">
             Suntem partenerul tău de încredere în salvarea momentelor de pret din viata ta.
           </p>
           <div className="flex justify-center items-center 4xs:mt-4 md:mt-16">
-            <Button className="mr-10" onClick={scrollToCounters}>
+            <Button className="mr-10" onClick={scrollDown}>
               Descopera mai mult
             </Button>
           </div>

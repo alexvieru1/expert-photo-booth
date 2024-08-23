@@ -14,14 +14,19 @@ const links = [
     src: "test-5.png"
   },
   {
-    title: "Servicii",
-    href: "/servicii",
-    src: "test-2.jpg"
-  },
-  {
     title: "Despre Noi",
     href: "/despre-noi",
     src: "test-3.jpg"
+  },
+  {
+    title: "Evenimente",
+    href: "/evenimente",
+    src: "test-2.jpg"
+  },
+  {
+    title: "Pachete",
+    href: "/pachete",
+    src: "test-5.png"
   },
   {
     title: "Contact",
