@@ -18,8 +18,10 @@ const Pachete = () => {
           </h2>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full lg:w-[80%]">
-        {packages.map((pkg, index) => (
+      
+      {/* First 3 Packages */}
+      <div className="place-items-center grid grid-cols-1 lg:grid-cols-3 gap-8 w-full lg:w-[80%]">
+        {packages.slice(0, 3).map((pkg, index) => (
           <motion.div
             key={index}
             className={`border rounded-lg shadow-lg p-6 flex flex-col ${
@@ -48,6 +50,39 @@ const Pachete = () => {
           </motion.div>
         ))}
       </div>
+
+      {/* Last 2 Packages */}
+      <div className="place-items-center grid grid-cols-1 lg:grid-cols-2 gap-8 w-full lg:w-[80%] mt-8">
+        {packages.slice(3, 5).map((pkg, index) => (
+          <motion.div
+            key={index}
+            className={`border rounded-lg shadow-lg p-6 flex flex-col ${
+              pkg.special ? "border-[#bb835e]" : "border-gray-200"
+            }`}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
+            viewport={{ once: true }}
+          >
+            <div className="flex justify-between items-center">
+              <h3 className="text-xl font-semibold mb-4">{pkg.title}</h3>
+              {pkg.special && (
+                <span className="bg-[#bb835e] text-white text-sm py-1 px-2 rounded-lg">
+                  {pkg.special}
+                </span>
+              )}
+            </div>
+            <ul className="mb-6">
+              {pkg.features.map((feature, i) => (
+                <li key={i} className="text-gray-700 mb-2">
+                  {feature}
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        ))}
+      </div>
+      
       <div className="my-8 flex justify-center items-center">
         <Link href="/pachete">
           <Button className="bg-[#bb835e] text-white py-2 px-6 rounded-md hover:bg-[#a6714d] transition duration-300">
