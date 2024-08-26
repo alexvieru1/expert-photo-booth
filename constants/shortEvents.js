@@ -60,17 +60,17 @@ export const eventPhotos = [
     src: "/images/events-short/amir3.jpeg",
   },
   {
-    title: "Festivalul de arda odisee",
+    title: "Festivalul de Artă Odisee",
     date: "August 2024",
     src: "/images/events-short/tghiol1.jpeg",
   },
   {
-    title: "Festivalul de arda odisee",
+    title: "Festivalul de Artă Odisee",
     date: "August 2024",
     src: "/images/events-short/tghiol2.jpeg",
   },
   {
-    title: "Festivalul de arda odisee",
+    title: "Festivalul de Artă Odisee",
     date: "August 2024",
     src: "/images/events-short/tghiol3.jpeg",
   },

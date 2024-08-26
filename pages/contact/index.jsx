@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "@/components/header";
 import Footer from "@/components/Footer";
+import ContactHero from "@/components/contact-page/ContactHero";
+import ContactAbout from "@/components/contact-page/ContactAbout";
 
 const index = () => {
   return (
     <div>
       <Header />
-      <div className="mt-24 min-h-screen text-6xl">contact</div>
+      <ContactHero/>
+      <ContactAbout/>
       <Footer/>
     </div>
   );
