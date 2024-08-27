@@ -11,7 +11,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Adresa:</span>Bd. Tomis Nr.125 Bl.1 Sc.1 Ap.1, Constanta
+                    <span>Adresa:</span>I.Gh.Duca Nr.31
                 </motion.li>
             </ul>
             <ul>
@@ -38,7 +38,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    CUI FIRMA
+                    CUI: 43603510
                 </motion.li>
                 {/* <motion.li 
                     custom={[0.3, 0]} 

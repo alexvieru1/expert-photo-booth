@@ -45,7 +45,7 @@ export const packages = [
       "Background la alegere - din stocul nostru",
       "Optional ALBUM-guestbook personalizat",
     ],
-    price: 1100,
+    price: 1200,
   },
   {
     title: "Pachet 6 ore",
@@ -59,9 +59,10 @@ export const packages = [
       "Asistent prezent pe toata perioada inchirierii",
       "Transmiterea tuturor fotografiilor",
       "Background la alegere - din stocul nostru",
-      "Optional ALBUM-guestbook personalizat",
+      "ALBUM-guestbook personalizat inclus",
     ],
-    price: 1200,
+    price: 1500,
+    special: "BEST", // Special tag for the best package
   },
   {
     title: "Pachet 8 ore", // Updated from 7 to 8 hours
@@ -75,9 +76,8 @@ export const packages = [
       "Asistent prezent pe toata perioada inchirierii",
       "Transmiterea tuturor fotografiilor",
       "Background la alegere - din stocul nostru",
-      "Optional ALBUM-guestbook personalizat",
+      "ALBUM-guestbook personalizat inclus",
     ],
-    price: 1300,
-    special: "BEST", // Special tag for the best package
+    price: 1800,
   },
 ];

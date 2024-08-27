@@ -17,25 +17,31 @@ const DespreAbout = () => {
           Povestea noastră
         </h2>
         <p className="mt-4 text-gray-700 lg:text-md">
-          Acum doi ani, doi prieteni cu o pasiune comună pentru capturarea
-          momentelor speciale au decis să-și transforme visul în realitate.
-          Sergiu și Nicolae, fiecare cu experiența sa în fotografie și
-          tehnologie, au pus bazele Expert Photobooth.{" "}
+          La Expert Photobooth, suntem dedicați să transformăm fiecare eveniment
+          într-o experiență memorabilă. Cu o pasiune pentru detalii și un
+          angajament față de excelență, ne-am propus să oferim servicii de
+          fotografie de înaltă calitate, adaptate nevoilor fiecărui client.
         </p>
         <p className="mt-4 text-gray-700 lg:text-md">
-          Ce a început ca o idee simplă de a aduce bucurie și amintiri de
-          neuitat în viața oamenilor s-a transformat rapid într-o afacere de
-          succes. Cu determinare și o atenție deosebită pentru detalii, Sergiu
-          și Nicolae au creat un serviciu care nu doar că surprinde momente, dar
-          le și transformă în experiențe de neuitat.
+          Activitatea noastră a început din dorința de a crea momente de neuitat
+          și de a aduce bucurie în viețile oamenilor prin intermediul
+          fotografiei. De la evenimente private, cum ar fi nunți și botezuri,
+          până la petreceri corporate și aniversări, suntem alături de tine
+          pentru a surprinde fiecare zâmbet și fiecare emoție.
         </p>
         <p className="mt-4 text-gray-700 lg:text-md">
-          În doar doi ani, Expert Photobooth a devenit sinonim cu
-          profesionalismul și creativitatea, oferind servicii de top la
-          evenimente de toate tipurile, de la nunți și botezuri la petreceri
-          corporate și aniversări. Fiecare eveniment este o nouă oportunitate
-          pentru echipa noastră de a aduce zâmbete pe fețele oamenilor și de a
-          crea amintiri care vor dura o viață întreagă.
+          Cu un echipament modern și o echipă dedicată, am reușit să ne facem un
+          nume în industrie, devenind un partener de încredere pentru
+          organizarea oricărui tip de eveniment. Ne mândrim cu faptul că fiecare
+          eveniment la care participăm este o nouă oportunitate de a aduce ceva
+          unic și personalizat, reflectând perfect dorințele și așteptările
+          clienților noștri.
+        </p>
+        <p className="mt-4 text-gray-700 lg:text-md">
+          În doar câțiva ani, am crescut constant, câștigând încrederea
+          clienților prin profesionalismul și creativitatea pe care le aducem în
+          fiecare proiect. La Expert Photobooth, nu oferim doar servicii de
+          fotografie, ci creăm amintiri care durează o viață întreagă.
         </p>
       </motion.div>
 
