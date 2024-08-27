@@ -20,7 +20,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Email:</span> adresa@email.com
+                    <span>Email:</span> contact@expertphotobooth360.com
                 </motion.li>
             </ul>
             <ul>
