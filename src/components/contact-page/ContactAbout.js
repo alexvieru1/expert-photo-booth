@@ -23,6 +23,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
+import { sendContactForm } from "../../../lib/api";
+import { useToast } from "../ui/use-toast";
 
 // Define the schema using Zod
 const formSchema = z.object({
@@ -32,11 +34,9 @@ const formSchema = z.object({
   email: z.string().email({
     message: "Trebuie să introduceți un e-mail valid.",
   }),
-  phoneNumber: z
-    .string()
-    .regex(/^07\d{8}$/, {
-      message: "Numărul de telefon trebuie să fie în formatul 07XXXXXXXX.",
-    }),
+  phoneNumber: z.string().regex(/^07\d{8}$/, {
+    message: "Numărul de telefon trebuie să fie în formatul 07XXXXXXXX.",
+  }),
   event: z.string().min(1, { message: "Trebuie să selectați un eveniment." }),
   message: z.string().min(10, {
     message: "Mesajul trebuie să aibă cel puțin 10 caractere.",
@@ -44,6 +44,7 @@ const formSchema = z.object({
 });
 
 const ContactAbout = () => {
+  const { toast } = useToast();
   // 1. Define your form using the useForm hook
   const form = useForm({
     resolver: zodResolver(formSchema),
@@ -57,10 +58,28 @@ const ContactAbout = () => {
   });
 
   // 2. Define a submit handler
-  function onSubmit(values) {
-    // Handle form submission
-    console.log(values);
-  }
+  const onSubmit = async (values) => {
+    try {
+      await sendContactForm({
+        fullName: values.fullName,
+        email: values.email,
+        phoneNumber: values.phoneNumber,
+        event: values.event,
+        message: values.message,
+      });
+      toast({
+        title: "Mesaj trimis cu succes!",
+        description: "Am primit mesajul tău și te vom contacta în curând.",
+      });
+    } catch (error) {
+      console.error("Failed to send message:", error);
+      toast({
+        variant: "destructive",
+        title: "Eroare la trimiterea mesajului",
+        description: "Încercați din nou mai târziu.",
+      });
+    }
+  };
 
   return (
     <motion.div
@@ -172,13 +191,13 @@ const ContactAbout = () => {
                         <SelectValue placeholder="Selectează evenimentul" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="nunta">Nuntă</SelectItem>
-                        <SelectItem value="botez">Botez</SelectItem>
-                        <SelectItem value="aniversare">Aniversare</SelectItem>
-                        <SelectItem value="corporate">
+                        <SelectItem value="Nunta">Nuntă</SelectItem>
+                        <SelectItem value="Botez">Botez</SelectItem>
+                        <SelectItem value="Aniversare">Aniversare</SelectItem>
+                        <SelectItem value="Corporate">
                           Eveniment Corporate
                         </SelectItem>
-                        <SelectItem value="altul">Altul</SelectItem>
+                        <SelectItem value="Alt tip eveniment">Altul</SelectItem>
                       </SelectContent>
                     </Select>
                   </FormControl>

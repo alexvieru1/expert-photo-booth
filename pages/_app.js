@@ -2,7 +2,7 @@
 import "../src/app/globals.css";
 import { useEffect, useState } from "react";
 import { Inter as FontSans } from "next/font/google"
-import Header from "@/components/header";
+import { Toaster } from "@/components/ui/toaster"
 import { useRouter } from "next/router";
 
 import { cn } from "@/lib/utils"
@@ -36,6 +36,7 @@ function MyApp({ Component, pageProps }) {
         fontSans.variable
       )}>
       <Component {...pageProps} />
+      <Toaster/>
     </div>
   );
 }

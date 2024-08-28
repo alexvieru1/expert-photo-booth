@@ -14,7 +14,7 @@ export default function Footer() {
                     <span>Adresa:</span>I.Gh.Duca Nr.31
                 </motion.li>
             </ul>
-            <ul>
+            {/* <ul>
                 <motion.li  
                     custom={[0.3, 0]} 
                     variants={translate} initial="initial" 
@@ -22,7 +22,7 @@ export default function Footer() {
                     exit="exit">
                     <span>Email:</span> contact@expertphotobooth360.com
                 </motion.li>
-            </ul>
+            </ul> */}
             <ul>
                 <motion.li
                     custom={[0.3, 0]} 
