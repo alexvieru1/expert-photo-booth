@@ -5,11 +5,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 const images = [
-  "/images/hero-11.jpg",
-  "/images/hero-2.jpg",
-  "/images/hero-3.jpg",
-  "/images/hero-4.jpg",
-  "/images/hero-5.jpg",
+  "/images/hero-11.webp",
+  "/images/hero-2.webp",
+  "/images/hero-3.webp",
+  "/images/hero-4.webp",
+  "/images/hero-5.webp",
 ];
 
 const Hero = () => {
@@ -86,3 +86,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+

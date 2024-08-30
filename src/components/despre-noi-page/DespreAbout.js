@@ -54,7 +54,7 @@ const DespreAbout = () => {
         viewport={{ once: true }}
       >
         <Image
-          src="/images/despre-about.jpeg"
+          src="/images/despre-about.webp"
           layout="responsive"
           width={400}
           height={600}

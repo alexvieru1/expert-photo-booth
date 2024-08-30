@@ -11,27 +11,27 @@ const links = [
   {
     title: "Acasă",
     href: "/",
-    src: "home.jpg"
+    src: "home.webp"
   },
   {
     title: "Despre Noi",
     href: "/despre-noi",
-    src: "despre-noi.jpg"
+    src: "despre-noi.webp"
   },
   {
     title: "Evenimente",
     href: "/evenimente",
-    src: "evenimente.jpg"
+    src: "evenimente.webp"
   },
   {
     title: "Pachete",
     href: "/pachete",
-    src: "pachete.jpg"
+    src: "pachete.webp"
   },
   {
     title: "Contact",
     href: "/contact",
-    src: "contact.jpg"
+    src: "contact.webp"
   }
 ]
 
@@ -51,3 +51,4 @@ export default function Index() {
     </motion.div>
   )
 }
+

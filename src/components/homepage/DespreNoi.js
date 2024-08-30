@@ -29,7 +29,7 @@ const DespreNoi = () => {
               viewport={{ once: true }}
             >
               <Image
-                src="/images/despre-1.jpeg"
+                src="/images/despre-1.webp"
                 width={600}
                 height={600}
                 alt="Despre Noi Image"
@@ -117,7 +117,7 @@ const DespreNoi = () => {
             >
               <Image
                 className="border-[#d3cfc9] border-[10px] shadow-lg ml-4 md:ml-0"
-                src="/images/despre-2.jpeg"
+                src="/images/despre-2.webp"
                 width={300}
                 height={200}
                 alt="Additional Image"
