@@ -72,7 +72,8 @@ const Hero = () => {
             Expert Photobooth
           </h1>
           <p className="flex justify-center items-center place-self-center 4xs:text-xs md:text-md text-center md:mt-4">
-            Suntem partenerul tău de încredere în salvarea momentelor de pret din viata ta.
+            Suntem partenerul tău de încredere în salvarea momentelor de pret
+            din viata ta.
           </p>
           <div className="flex justify-center items-center 4xs:mt-4 md:mt-16">
             <Button className="mr-10" onClick={scrollDown}>
@@ -86,5 +87,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-

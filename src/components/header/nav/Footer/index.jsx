@@ -14,15 +14,6 @@ export default function Footer() {
                     <span>Adresa:</span>I.Gh.Duca Nr.31
                 </motion.li>
             </ul>
-            {/* <ul>
-                <motion.li  
-                    custom={[0.3, 0]} 
-                    variants={translate} initial="initial" 
-                    animate="enter" 
-                    exit="exit">
-                    <span>Email:</span> contact@expertphotobooth360.com
-                </motion.li>
-            </ul> */}
             <ul>
                 <motion.li
                     custom={[0.3, 0]} 
@@ -40,13 +31,6 @@ export default function Footer() {
                     exit="exit">
                     CUI: 43603510
                 </motion.li>
-                {/* <motion.li 
-                    custom={[0.3, 0]} 
-                    variants={translate} initial="initial" 
-                    animate="enter" 
-                    exit="exit">
-                    Terms & Conditions
-                </motion.li> */}
             </ul>
         </div>
     )

@@ -7,10 +7,11 @@ import DespreAbout from "@/components/despre-noi-page/DespreAbout";
 const index = () => {
   return (
     <div>
+      <title>Despre Noi - Cabina foto/video 360</title>
       <Header />
-      <DespreHero/>
-      <DespreAbout/>
-      <Footer/>
+      <DespreHero />
+      <DespreAbout />
+      <Footer />
     </div>
   );
 };

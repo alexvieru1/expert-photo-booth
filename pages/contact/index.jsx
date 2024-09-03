@@ -7,10 +7,11 @@ import ContactAbout from "@/components/contact-page/ContactAbout";
 const index = () => {
   return (
     <div>
+      <title>Contact - Cabina foto/video 360</title>
       <Header />
-      <ContactHero/>
-      <ContactAbout/>
-      <Footer/>
+      <ContactHero />
+      <ContactAbout />
+      <Footer />
     </div>
   );
 };

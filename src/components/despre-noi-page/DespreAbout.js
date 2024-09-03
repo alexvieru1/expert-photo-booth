@@ -55,7 +55,6 @@ const DespreAbout = () => {
       >
         <Image
           src="/images/despre-about.webp"
-          layout="responsive"
           width={400}
           height={600}
           alt="photo"

@@ -7,10 +7,11 @@ import EventsAbout from "@/components/evenimente-page/EventsAbout";
 const index = () => {
   return (
     <div>
+      <title>Evenimente - Cabina foto/video 360</title>
       <Header />
-      <EventsHero/>
-      <EventsAbout/>
-      <Footer/>
+      <EventsHero />
+      <EventsAbout />
+      <Footer />
     </div>
   );
 };

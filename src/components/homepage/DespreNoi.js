@@ -54,16 +54,16 @@ const DespreNoi = () => {
                   classNameSup="my-auto text-xl text-[#bb835e] font-semibold"
                 />
               )}
-              <h1 className="text-sm md:text-lg font-semibold text-right mt-2">
+              <h2 className="text-sm md:text-lg font-semibold text-right mt-2">
                 zâmbete surprinse
-              </h1>
+              </h2>
             </motion.div>
           </div>
         </div>
         <div className="min-h-[70vh] lg:w-[50vw] lg:ml-5 flex flex-col justify-center p-10">
-          <h6 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
+          <h3 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
             Despre Noi
-          </h6>
+          </h3>
           <h2 className="text-2xl lg:text-3xl mt-4">Creăm amintiri de neuitat</h2>
           <div className="gap-y-4 text-md text-gray-700 mt-6 leading-relaxed">
             <p className="mb-4">
@@ -102,9 +102,9 @@ const DespreNoi = () => {
                   classNameSup="my-auto text-lg text-[#bb835e] font-semibold"
                 />
               )}
-              <h1 className="text-sm md:text-base text-end font-semibold mt-2">
+              <h2 className="text-sm md:text-base text-end font-semibold mt-2">
                 clienți satisfăcuți
-              </h1>
+              </h2>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 200 }}

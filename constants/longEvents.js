@@ -106,6 +106,22 @@ export const longEvents = [
       "/images/events-long/arta-odisee/8.webp",
     ],
   },
+  {
+    title: "Botez Cristian-Ioan",
+    date: "August 2024",
+    photos: [
+      "/images/events-long/botez-cristian-ioan/1.webp",
+      "/images/events-long/botez-cristian-ioan/2.webp",
+      "/images/events-long/botez-cristian-ioan/3.webp",
+      "/images/events-long/botez-cristian-ioan/4.webp",
+      "/images/events-long/botez-cristian-ioan/5.webp",
+      "/images/events-long/botez-cristian-ioan/6.webp",
+      "/images/events-long/botez-cristian-ioan/7.webp",
+      "/images/events-long/botez-cristian-ioan/8.webp",
+      "/images/events-long/botez-cristian-ioan/9.webp",
+      "/images/events-long/botez-cristian-ioan/10.webp",
+      "/images/events-long/botez-cristian-ioan/11.webp",
+      "/images/events-long/botez-cristian-ioan/12.webp",
+    ],
+  },
 ];
-
-

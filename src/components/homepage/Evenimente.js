@@ -14,9 +14,9 @@ const Evenimente = () => {
     >
       <div className="w-full lg:w-[80%] flex flex-col items-center">
         <div className="flex flex-col justify-center p-10 text-center lg:text-left">
-          <h6 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
+          <h3 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
             Evenimente
-          </h6>
+          </h3>
           <h2 className="text-2xl lg:text-3xl mt-4">
             Zâmbete surprinse recent
           </h2>
@@ -34,7 +34,7 @@ const Evenimente = () => {
           >
             <Image
               src={photo.src}
-              alt={photo.title}
+              alt={`Poza - ${photo.title}`}
               width={400}
               height={400}
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"

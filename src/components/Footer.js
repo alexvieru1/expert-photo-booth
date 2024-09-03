@@ -22,9 +22,16 @@ const Footer = () => {
 
         {/* Contact Information */}
         <div className="flex flex-col items-center lg:items-start">
-          <a href="tel:+40732406265" className="mb-2">Telefon: +40 732 406 265</a>
           <div className="flex justify-center items-center">
-            <Link href="https://www.instagram.com/expertphotobooth360/" target="_blank">
+            <Link href="tel:+40732406265" className="mb-2">
+              Telefon: +40 732 406 265
+            </Link>
+          </div>
+          <div className="flex justify-center items-center">
+            <Link
+              href="https://www.instagram.com/expertphotobooth360/"
+              target="_blank"
+            >
               <Instagram className="text-2xl text-[#F0EB94] hover:text-white transition duration-300 mr-4" />
             </Link>
           </div>

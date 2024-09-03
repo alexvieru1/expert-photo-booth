@@ -42,7 +42,7 @@ const EventsAbout = () => {
                         <CardContent className="flex aspect-square items-center justify-center p-0">
                           <Image
                             src={photo}
-                            alt={`Photo ${index + 1} of ${event.title}`}
+                            alt={`Poza ${index + 1} de la ${event.title}`}
                             width={3024}
                             height={4032}
                             className="object-cover w-full h-full rounded-lg"

@@ -10,9 +10,9 @@ const Pachete = () => {
     <div className="flex flex-col items-center mt-10 px-4 lg:px-8 overflow-hidden">
       <div className="w-full lg:w-[80%] flex flex-col items-center">
         <div className="flex flex-col justify-center p-10 text-start">
-          <h6 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
+          <h3 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
             Pachete
-          </h6>
+          </h3>
           <h2 className="text-2xl lg:text-3xl mt-4">
             Lista de pachete pe care le putem oferi
           </h2>

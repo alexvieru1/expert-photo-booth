@@ -7,10 +7,11 @@ import PacheteAbout from "@/components/pachete-page/PacheteAbout";
 const index = () => {
   return (
     <div>
+      <title>Pachete - Cabina foto/video 360</title>
       <Header />
-      <PacheteHero/>
-      <PacheteAbout/>
-      <Footer/>
+      <PacheteHero />
+      <PacheteAbout />
+      <Footer />
     </div>
   );
 };
