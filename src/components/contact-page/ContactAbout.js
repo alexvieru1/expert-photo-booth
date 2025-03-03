@@ -102,7 +102,7 @@ const ContactAbout = () => {
           <p className="mt-4 text-center text-gray-600">
             Dacă ai întrebări sau dorești să discuți despre evenimentul tău, te
             rugăm să completezi formularul de mai jos sau să ne contactezi
-            direct la numerele de telefon:
+            direct la numărul de telefon:
           </p>
           <p className="mt-4 text-center text-gray-600">
             <a
@@ -111,13 +111,6 @@ const ContactAbout = () => {
             >
               0732 406 265
             </a>{" "}
-            sau{" "}
-            <a
-              href="tel:+40745310150"
-              className="text-[#bb835e] hover:text-[#a6714d] font-semibold mx-4"
-            >
-              0745 310 150
-            </a>
           </p>
         </motion.div>
 

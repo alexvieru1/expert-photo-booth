@@ -16,12 +16,12 @@ const EventsAbout = () => {
       {longEvents.map((event, eventIndex) => (
         <div key={eventIndex} className="w-full max-w-4xl mb-12">
           {/* Event Title and Date */}
-          <div className="text-center mb-6">
+          {/* <div className="text-center mb-6">
             <h2 className="text-2xl font-semibold text-[#333]">
               {event.title}
             </h2>
             <p className="text-gray-500">{event.date}</p>
-          </div>
+          </div> */}
 
           {/* Carousel */}
           <div className="flex justify-center items-center">

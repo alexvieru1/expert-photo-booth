@@ -44,13 +44,6 @@ const ContactHp = () => {
             <Phone className="w-5 h-5" />
             0732 406 265
           </a>
-          <a
-            href="tel:+40745310150"
-            className="flex items-center justify-center gap-2 text-lg font-semibold text-[#bb835e] hover:text-[#a6714d] transition duration-300"
-          >
-            <Phone className="w-5 h-5" />
-            0745 310 150
-          </a>
         </div>
       </div>
 
