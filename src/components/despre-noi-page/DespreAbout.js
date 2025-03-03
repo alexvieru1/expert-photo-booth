@@ -54,8 +54,8 @@ const DespreAbout = () => {
         viewport={{ once: true }}
       >
         <Image
-          src="/images/despre-about.webp"
-          width={400}
+          src="/images/despre-noi-1.webp"
+          width={800}
           height={600}
           alt="photo"
           className="rounded-lg shadow-lg"
