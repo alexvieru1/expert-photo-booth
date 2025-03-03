@@ -5,11 +5,16 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 const images = [
-  "/images/hero-11.webp",
-  "/images/hero-2.webp",
-  "/images/hero-3.webp",
-  "/images/hero-4.webp",
-  "/images/hero-5.webp",
+  "/images/1-hero.webp",
+  "/images/2-hero.webp",
+  "/images/3-hero.webp",
+  "/images/4-hero.webp",
+  "/images/5-hero.webp",
+  "/images/6-hero.webp",
+  // "/images/hero-2.webp",
+  // "/images/hero-3.webp",
+  // "/images/hero-4.webp",
+  // "/images/hero-5.webp",
 ];
 
 const Hero = () => {

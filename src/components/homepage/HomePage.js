@@ -8,6 +8,7 @@ import Evenimente from './Evenimente';
 import Pachete from './Pachete';
 import Footer from '../Footer';
 import ServiciiHp from './ServiciiHp';
+import ContactHp from './ContactHp';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
         <DespreNoi/>
         <ServiciiHp/>
         <Evenimente/>
+        <ContactHp/>
         {/* <Pachete/> */}
         <Footer/>
     </div>

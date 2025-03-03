@@ -22,7 +22,7 @@ export const packages = [
         title: "Pachet 4 ore",
         features: [
           "Include toate beneficiile pachetului de 3 ore",
-          "Stick USB cu toate fotografiile realizate",
+          "+ Stick USB cu toate fotografiile realizate",
         ],
         price: 1000,
       },
@@ -30,7 +30,7 @@ export const packages = [
         title: "Pachet 5 ore",
         features: [
           "Include toate beneficiile pachetului de 4 ore",
-          "Album foto personalizat",
+          "+ Album foto personalizat",
         ],
         price: 1250,
       },
@@ -38,7 +38,7 @@ export const packages = [
         title: "Pachet 7 ore",
         features: [
           "Include toate beneficiile pachetului de 5 ore",
-          "Galerie online privată cu toate fotografiile",
+          "+ Galerie online privată cu toate fotografiile",
         ],
         price: 1500,
       },
@@ -62,7 +62,7 @@ export const packages = [
         title: "Pachet 4 ore",
         features: [
           "Include toate beneficiile pachetului de 3 ore",
-          "Stick USB cu toate fotografiile",
+          "+ Stick USB cu toate fotografiile",
         ],
         price: 1100,
       },
@@ -70,7 +70,7 @@ export const packages = [
         title: "Pachet 5 ore",
         features: [
           "Include toate beneficiile pachetului de 4 ore",
-          "Album foto personalizat",
+          "+ Album foto personalizat",
         ],
         price: 1400,
       },
@@ -78,7 +78,7 @@ export const packages = [
         title: "Pachet 7 ore",
         features: [
           "Include toate beneficiile pachetului de 5 ore",
-          "Galerie online privată cu toate fotografiile",
+          "+ Galerie online privată cu toate fotografiile",
         ],
         price: 1750,
       },
@@ -103,8 +103,8 @@ export const packages = [
         title: "Pachet 4 ore",
         features: [
           "Include toate beneficiile pachetului de 3 ore",
-          "Partajare instantă a videoclipurilor pe telefon",
-          "Opțiune de a adăuga teme speciale și efecte vizuale personalizate",
+          "+ Partajare instantă a videoclipurilor pe telefon",
+          "+ Opțiune de a adăuga teme speciale și efecte vizuale personalizate",
         ],
         price: 1000,
       },
@@ -112,7 +112,7 @@ export const packages = [
         title: "Pachet 5 ore",
         features: [
           "Include toate beneficiile pachetului de 4 ore",
-          "Videoclipuri personalizate cu teme suplimentare și efecte speciale",
+          "+ Videoclipuri personalizate cu teme suplimentare și efecte speciale",
         ],
         price: 1250,
       },
@@ -120,7 +120,7 @@ export const packages = [
         title: "Pachet 7 ore",
         features: [
           "Include toate beneficiile pachetului de 5 ore",
-          "Timp extins pentru a surprinde mai multe momente",
+          "+ Timp extins pentru a surprinde mai multe momente",
         ],
         price: 1500,
       },

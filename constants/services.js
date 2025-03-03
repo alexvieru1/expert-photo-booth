@@ -33,7 +33,7 @@ export const services = [
       "Platforma 360 este o experiență video inovatoare care transformă orice eveniment într-un spectacol vizual captivant. Invitații urcă pe o platformă rotativă, iar o cameră montată pe un braț automat filmează din toate unghiurile, creând videoclipuri dinamice, slow-motion și efecte spectaculoase.",
     description2:
       "Ideală pentru nunți, botezuri, petreceri, evenimente corporate și lansări de produse, Platforma 360 oferă conținut video de impact, perfect pentru social media și amintiri de neuitat!",
-    image: "/images/platforma-360.webp",
+    image: "/images/video-360.webp",
     packages: [
       { time: "3 ore", price: "800 lei" },
       { time: "4 ore", price: "1000 lei" },

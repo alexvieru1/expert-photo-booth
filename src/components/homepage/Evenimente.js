@@ -12,7 +12,7 @@ const Evenimente = () => {
     <div
       className="flex flex-col items-center mt-10 px-4 lg:px-8 overflow-hidden"
     >
-      <div className="w-full lg:w-[80%] flex flex-col items-center">
+      {/* <div className="w-full lg:w-[80%] flex flex-col items-center">
         <div className="flex flex-col justify-center p-10 text-center lg:text-left">
           <h3 className="text-lg text-[#bb835e] font-amsterdam tracking-wider">
             Evenimente
@@ -21,7 +21,7 @@ const Evenimente = () => {
             Zâmbete surprinse recent
           </h2>
         </div>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full lg:w-[80%] justify-items-center">
         {eventPhotos.map((photo, index) => (
           <motion.div
