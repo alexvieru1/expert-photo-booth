@@ -7,14 +7,16 @@ import DespreNoi from './DespreNoi';
 import Evenimente from './Evenimente';
 import Pachete from './Pachete';
 import Footer from '../Footer';
+import ServiciiHp from './ServiciiHp';
 
 const HomePage = () => {
   return (
     <div className='flex-col w-full'>
         <Hero/>
         <DespreNoi/>
+        <ServiciiHp/>
         <Evenimente/>
-        <Pachete/>
+        {/* <Pachete/> */}
         <Footer/>
     </div>
   )

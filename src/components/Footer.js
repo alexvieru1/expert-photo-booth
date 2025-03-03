@@ -40,7 +40,7 @@ const Footer = () => {
 
         {/* All Rights Reserved */}
         <div className="text-center lg:text-right text-sm">
-          <p>&copy; 2024 Expert Photobooth. Toate drepturile rezervate.</p>
+          <p>&copy; 2025 Expert Photobooth. Toate drepturile rezervate.</p>
         </div>
       </div>
     </footer>

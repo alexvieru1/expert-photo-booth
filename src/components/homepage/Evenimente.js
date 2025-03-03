@@ -39,7 +39,7 @@ const Evenimente = () => {
               height={400}
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <motion.div
+            {/* <motion.div
               className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -48,7 +48,7 @@ const Evenimente = () => {
               <h3 className="text-lg font-semibold">{photo.title}</h3>
               <Separator className="my-2 w-[80%]" />
               <p className="text-sm">{photo.date}</p>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         ))}
       </div>
