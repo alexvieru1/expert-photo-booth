@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export default function Footer() {
     return (
         <div className={styles.footer}>
-            <ul>
+            {/* <ul>
                 <motion.li 
                     custom={[0.3, 0]} 
                     variants={translate} initial="initial" 
@@ -13,7 +13,7 @@ export default function Footer() {
                     exit="exit">
                     <span>Adresa:</span>I.Gh.Duca Nr.31
                 </motion.li>
-            </ul>
+            </ul> */}
             <ul>
                 <motion.li
                     custom={[0.3, 0]} 
