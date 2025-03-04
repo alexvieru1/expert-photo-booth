@@ -61,7 +61,7 @@ export default function Header() {
         <div className={styles.shopContainer}>
           <Button
             variant="link"
-            onClick={() => window.open("https://www.instagram.com/expertphotobooth360/5")}
+            onClick={() => window.open("https://www.instagram.com/expertphotobooth360")}
           >
             <InstagramIcon className="h-5 w-5 mr-2"/>
             <p className="hidden md:flex">Instagram</p>
