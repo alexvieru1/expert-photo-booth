@@ -10,6 +10,7 @@ import Image from "next/image";
 import transparentLogo from "/public/images/logo.png";
 import { Button } from "../ui/button";
 import whatsappLogo from "/public/images/whatsapp.svg";
+import { InstagramIcon } from "lucide-react";
 
 export default function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -58,6 +59,13 @@ export default function Header() {
           </div>
         </div>
         <div className={styles.shopContainer}>
+          <Button
+            variant="link"
+            onClick={() => window.open("https://www.instagram.com/expertphotobooth360/5")}
+          >
+            <InstagramIcon className="h-5 w-5 mr-2"/>
+            <p className="hidden md:flex">Instagram</p>
+          </Button>
           <Button
             variant="link"
             onClick={() => window.open("https://wa.me/40732406265")}
